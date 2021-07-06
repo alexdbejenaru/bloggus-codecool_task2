@@ -105,8 +105,13 @@ body {
           justify-content: center;
 }
 
-.nav_top__links li:hover {
+.nav_top__links li:hover:not(:first-child) {
   border-bottom: 3px solid #e2c547;
+}
+
+.nav_top__links li:first-child {
+  border-bottom: 3px solid #e2c547;
+  font-weight: 600;
 }
 
 .footer {

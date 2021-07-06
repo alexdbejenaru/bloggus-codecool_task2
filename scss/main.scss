@@ -45,8 +45,13 @@ body {
             align-items: center;
             justify-content: center;
 
-            &:hover {
+            &:hover:not(:first-child) {
                 border-bottom: 3px solid $accent_color;
+            }
+
+            &:first-child {
+                border-bottom: 3px solid $accent_color;
+                font-weight: $font_semibold;
             }
         }
     }
