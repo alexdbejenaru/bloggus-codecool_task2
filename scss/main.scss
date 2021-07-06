@@ -43,12 +43,11 @@ body {
 
 .footer {
     background-color: $bg_dark;
-    // position: absolute;
     height: 100px;
     width: 100%;
-    // bottom: 0;
     display: flex;
     min-width: 900px;
+    position: relative;
 
     a:hover {
         font-weight: $font_semibold;
@@ -57,10 +56,10 @@ body {
 
     .nav_bottom {
         height: 100%;
+        position: absolute;
 
         &__list {
             height: 100%;
-            // position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
