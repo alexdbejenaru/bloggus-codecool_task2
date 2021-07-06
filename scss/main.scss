@@ -4,6 +4,9 @@
 body {
     height: 100vh;
     background-color: $bg_color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nav_top {
@@ -40,10 +43,10 @@ body {
 
 .footer {
     background-color: $bg_dark;
-    position: absolute;
+    // position: absolute;
     height: 100px;
     width: 100%;
-    bottom: 0;
+    // bottom: 0;
     display: flex;
     min-width: 900px;
 
@@ -57,7 +60,7 @@ body {
 
         &__list {
             height: 100%;
-            position: absolute;
+            // position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -83,5 +86,27 @@ body {
     }
     .copyright {
         font-size: smaller;
+    }
+}
+
+.homepage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main_section {
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        margin-left: 10px;
+    }
+
+    .sidebar {
+        width: 20%;
+        height: 80%;
+        background-color: white;
+        margin-right: 10px;
     }
 }

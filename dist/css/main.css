@@ -36,6 +36,16 @@ ul {
 body {
   height: 100vh;
   background-color: #c2ddc8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .nav_top {
@@ -83,10 +93,8 @@ body {
 
 .footer {
   background-color: #99bfb3;
-  position: absolute;
   height: 100px;
   width: 100%;
-  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +112,6 @@ body {
 
 .footer .nav_bottom__list {
   height: 100%;
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,5 +155,33 @@ body {
 
 .footer .copyright {
   font-size: smaller;
+}
+
+.homepage {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage .main_section {
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.homepage .sidebar {
+  width: 20%;
+  height: 80%;
+  background-color: white;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
