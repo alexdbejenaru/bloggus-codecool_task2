@@ -1,0 +1,87 @@
+@import 'variables', 'resets', 'responsive';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;1,400&display=swap');
+
+body {
+    height: 100vh;
+    background-color: $bg_color;
+}
+
+.nav_top {
+    background-color: $bg_dark;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 900px;
+
+    a:hover {
+        font-weight: $font_semibold;
+        cursor: pointer;
+    }
+
+    &__logo {
+        align-self: center;
+        margin-left: 30px;
+
+        img {
+            height: 40px;
+        }
+    }
+
+    &__links {
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+
+    }
+}
+
+.footer {
+    background-color: $bg_dark;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    min-width: 900px;
+
+    a:hover {
+        font-weight: $font_semibold;
+        cursor: pointer;
+    }
+
+    .nav_bottom {
+        height: 100%;
+
+        &__list {
+            height: 100%;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 30px;
+        }
+    }
+
+    .links_copy {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .social_links{
+            width: 500px;
+
+            &__list {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+    .copyright {
+        font-size: smaller;
+    }
+}
