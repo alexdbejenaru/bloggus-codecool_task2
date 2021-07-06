@@ -38,7 +38,7 @@ body {
         align-items: center;
         margin-right: 30px;
         
-        .active {
+        .active_login {
             border-bottom: 3px solid $accent_color;
             font-weight: $font_semibold;
         }
@@ -46,11 +46,15 @@ body {
         li {
             height: 100%;
             width: 100px;
-            display:flex;
-            align-items: center;
-            justify-content: center;
 
-            &:hover:not(.active) {
+            a {
+                height: 100%;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &:hover:not(.active_login) {
                 border-bottom: 3px solid $accent_color;
             }
         }

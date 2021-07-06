@@ -91,7 +91,7 @@ body {
   margin-right: 30px;
 }
 
-.nav_top__links .active {
+.nav_top__links .active_login {
   border-bottom: 3px solid #e2c547;
   font-weight: 600;
 }
@@ -99,6 +99,10 @@ body {
 .nav_top__links li {
   height: 100%;
   width: 100px;
+}
+
+.nav_top__links li a {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,7 +114,7 @@ body {
           justify-content: center;
 }
 
-.nav_top__links li:hover:not(.active) {
+.nav_top__links li:hover:not(.active_login) {
   border-bottom: 3px solid #e2c547;
 }
 
