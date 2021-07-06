@@ -212,4 +212,12 @@ body {
   margin-right: 10px;
   min-height: 300px;
 }
+
+.main_section__login {
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  margin-left: 10px;
+  min-height: 300px;
+}
 /*# sourceMappingURL=main.css.map */
