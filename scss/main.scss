@@ -38,6 +38,11 @@ body {
         align-items: center;
         margin-right: 30px;
         
+        .active {
+            border-bottom: 3px solid $accent_color;
+            font-weight: $font_semibold;
+        }
+        
         li {
             height: 100%;
             width: 100px;
@@ -45,13 +50,8 @@ body {
             align-items: center;
             justify-content: center;
 
-            &:hover:not(:first-child) {
+            &:hover:not(.active) {
                 border-bottom: 3px solid $accent_color;
-            }
-
-            &:first-child {
-                border-bottom: 3px solid $accent_color;
-                font-weight: $font_semibold;
             }
         }
     }
@@ -128,3 +128,4 @@ body {
         min-height: 300px;
     }
 }
+
