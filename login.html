@@ -22,7 +22,28 @@
 
     <main class="homepage">
         <section class="main_section__login">
+            <figure class="profile_photo">
+                <img src="images/profile_photo.png" alt="Generic Profile Photo">
+            </figure>
 
+            <h5 class="login_title">Sign In!</h5>
+
+            <form class="form" method="get">
+                <label for="tel">Phone number:</label>
+                <input class="form_list" type="tel" id="tel" name="tel" required minlength="4" maxlength="12" size="10">
+
+                <h6>or,</h6>
+
+                <label for="mail">E-mail:</label>
+                <input class="form_list" type="text" id="mail" name="mail" required minlength="4" maxlength="8" size="10">
+
+                <label for="password">Password:</label>
+                <input class="form_list" type="password" id="password" name="password" required minlength="4" maxlength="8" size="10">
+
+                <input class="button" type="submit" value="Sign In">
+                <a class="small_links" href="#">Forgot your password?</a>
+                <a class="small_links" href="#">Don't have an account? Sign Up!</a>
+            </form>
         </section>
     </main>
     

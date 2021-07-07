@@ -236,5 +236,69 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
           box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_section__login .profile_photo img {
+  width: 300px;
+}
+
+.main_section__login .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_section__login .form_list {
+  padding: 10px 80px;
+  border-radius: 5px;
+  border: .5px solid lightblue;
+}
+
+.main_section__login .form_list:hover {
+  border: 2px solid lightblue;
+}
+
+.main_section__login .form .button {
+  background-color: #e2c547;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 0 1px 7px 1px lightblue;
+          box-shadow: 0 1px 7px 1px lightblue;
+}
+
+.main_section__login .form .button:hover {
+  padding: 11px 32px;
+  cursor: pointer;
+}
+
+.main_section__login .form .small_links {
+  color: blue;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.main_section__login .form .small_links:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
