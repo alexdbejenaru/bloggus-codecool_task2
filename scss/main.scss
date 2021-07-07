@@ -85,3 +85,66 @@ body {
         font-size: smaller;
     }
 }
+.registationSection{
+    padding: 200px;
+    display: flex;
+    &__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+        // width: 100%;
+        // margin: 100%;
+        
+        }
+}
+
+
+.registerSection__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    margin: 50px auto;
+
+
+         h1,P{
+        // color: black;
+        padding: 10px  ;
+
+    }
+}
+    
+
+.registerSection__inputBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    // justify-content: space-around;
+    gap: 10px;
+    // pa: 50px;
+    border: 0px solid $bg_dark;
+    background-color: $bg_dark;
+
+
+    input[type=file]{
+        width: 66%;
+        
+        
+
+    }
+
+        label{
+        // justify-content:left;
+        color: $text_blue;
+    }
+        input[type=submit]{
+            
+            color: $text_blue;
+            background-color: $bg_color;
+            border-radius: 5px;
+            border-color: black;
+        }
+        
+}
+    
