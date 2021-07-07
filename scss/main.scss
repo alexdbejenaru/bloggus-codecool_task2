@@ -57,6 +57,10 @@ body {
             &:hover:not(.active_login) {
                 border-bottom: 3px solid $accent_color;
             }
+
+            &:active:not(.active_login) {
+                font-size: smaller;
+            }
         }
     }
 }

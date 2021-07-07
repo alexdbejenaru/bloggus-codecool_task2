@@ -118,6 +118,10 @@ body {
   border-bottom: 3px solid #e2c547;
 }
 
+.nav_top__links li:active:not(.active_login) {
+  font-size: smaller;
+}
+
 .footer {
   background-color: #99bfb3;
   height: 100px;
