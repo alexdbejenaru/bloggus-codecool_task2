@@ -197,21 +197,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-.registationSection {
-  padding: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.registationSection__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -251,7 +236,6 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
           box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
-.registerSection__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,20 +262,6 @@ body {
 }
 
 .main_section__login .form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 50px auto;
-}
-
-.registerSection__text h1, .registerSection__text P {
-  padding: 10px;
-}
-
-.registerSection__inputBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,6 +313,63 @@ body {
 
 .main_section__login .form .small_links:hover {
   text-decoration: underline;
+}
+
+.registationSection {
+  padding: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.registationSection__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.registerSection__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto;
+}
+
+.registerSection__text h1, .registerSection__text P {
+  padding: 10px;
+}
+
+.registerSection__inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   border: 0px solid #99bfb3;
   background-color: #99bfb3;
