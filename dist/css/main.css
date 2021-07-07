@@ -228,7 +228,7 @@ body {
 }
 
 .main_section__login {
-  width: 30%;
+  width: 25%;
   height: 80%;
   background-color: white;
   margin-left: 10px;
@@ -252,7 +252,13 @@ body {
 }
 
 .main_section__login .profile_photo img {
-  width: 300px;
+  width: 250px;
+}
+
+.main_section__login .login_title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: larger;
 }
 
 .main_section__login .form {
@@ -268,10 +274,15 @@ body {
           align-items: center;
 }
 
+.main_section__login .form h6 {
+  margin-bottom: 10px;
+}
+
 .main_section__login .form_list {
   padding: 10px 80px;
   border-radius: 5px;
   border: .5px solid lightblue;
+  margin-bottom: 10px;
 }
 
 .main_section__login .form_list:hover {
@@ -285,6 +296,7 @@ body {
   border: none;
   -webkit-box-shadow: 0 1px 7px 1px lightblue;
           box-shadow: 0 1px 7px 1px lightblue;
+  margin: 20px 0;
 }
 
 .main_section__login .form .button:hover {
@@ -293,9 +305,10 @@ body {
 }
 
 .main_section__login .form .small_links {
-  color: blue;
+  color: #304D63;
   text-decoration: none;
   font-size: 11px;
+  margin-bottom: 3px;
 }
 
 .main_section__login .form .small_links:hover {
