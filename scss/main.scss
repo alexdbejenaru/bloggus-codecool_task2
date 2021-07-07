@@ -180,7 +180,7 @@ body {
             border-radius: 5px;
             border: .5px solid lightblue;
             margin-bottom: 10px;
-
+            
             &:hover {
                 border: 2px solid lightblue;
             }
@@ -212,67 +212,82 @@ body {
         }
     }
 }
+
 // Stefan-Registration Page
-.registationSection{
-    padding: 200px;
+
+.main_section__register {
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    margin-left: 10px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
     display: flex;
-    &__box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .profile_photo img {
+        width: 250px;
+        margin-bottom: 20px;
+
+    }
+
+    .login_title {
+        
+        margin-bottom: 10px;
+        font-weight: $font_semibold;
+        font-size: larger;
+    }
+
+    .form {
         display: flex;
         flex-direction: column;
-        align-items: center;    
-        justify-content: center;
-        // width: 100%;
-        // margin: 100%;
+        align-items: center;
         
+
+        h6 {
+            margin-bottom: 10px;
         }
-}
 
-
-.registerSection__text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
-    margin: 50px auto;
-
-
-         h1,P{
-        // color: black;
-        padding: 10px  ;
-
-    }
-}
-    
-
-.registerSection__inputBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    // justify-content: space-around;
-    gap: 10px;
-    // pa: 50px;
-    border: 0px solid $bg_dark;
-    background-color: $bg_dark;
-
-
-    input[type=file]{
-        width: 66%;
-        
-        
-
-    }
-
-        label{
-        // justify-content:left;
-        color: $text_blue;
-    }
-        input[type=submit]{
-            
-            color: $text_blue;
-            background-color: $bg_color;
+        &_list {
+            padding: 10px 80px;
             border-radius: 5px;
-            border-color: black;
+            border: .5px solid lightblue;
+            margin-bottom: 10px;
+            width: 20em;
+
+            &_file{
+                padding:7.2px  5px;
+                height:40px;
+                border-radius: 5px;
+                border: .5px solid lightblue;
+                margin-bottom: 10px;
+                width: 20em;
+
+            }
+            
+            &:hover {
+                border: 2px solid lightblue;
+            }
         }
+
+        .button {
+            background-color: $accent_color;
+            padding: 10px 30px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 1px 7px 1px lightblue;
+            margin: 20px 0;
+            
+            &:hover {
+                padding: 11px 32px;
+                cursor: pointer;
+            }
+        }
+
         
+    }
 }
-    
+
