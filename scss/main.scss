@@ -296,16 +296,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    .main_section {
-        width: 60%;
-        height: 80%;
-        background-color: white;
-        margin-left: 10px;
-        min-height: 300px;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
-    }
+    
+    //Profile Page sideabr
 
     .sidebar {
         width: 10%;
@@ -354,4 +346,45 @@ body {
                 }
             }
     }   }
+
+    //Profile page main section
+
+    .main_section {
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        margin-left: 10px;
+        padding: 20px 30px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+        display: flex;
+        flex-direction: column;
+
+        // Profile page main section hi
+
+        &_top{
+            display: flex;
+            border-bottom: 4px solid $accent_color;
+
+            &_text{
+                // text-align: left;
+                font-weight: $font_semibold;
+                font-size: 40px;
+                padding: 0 0 10px 0;
+            }
+        }
+
+        // Profile page main contenct section
+
+        &_content{
+            
+            padding: 25px 0px ;
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+
+        }
+
+    }
 }
