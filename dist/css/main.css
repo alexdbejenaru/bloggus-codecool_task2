@@ -402,4 +402,92 @@ body {
   padding: 11px 32px;
   cursor: pointer;
 }
+
+.profile {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile .main_section {
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  margin-left: 10px;
+  min-height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+          box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+}
+
+.profile .sidebar {
+  width: 10%;
+  height: 80%;
+  background-color: white;
+  margin-right: 10px;
+  min-height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+          box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+}
+
+.profile .sidebar_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  padding: 25px;
+}
+
+.profile .sidebar_ul .active_login {
+  border-bottom: 3px solid #e2c547;
+  font-weight: 600;
+}
+
+.profile .sidebar_ul li {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 7px 1px lightblue;
+          box-shadow: 0 1px 7px 1px lightblue;
+}
+
+.profile .sidebar_ul li a {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20%;
+}
+
+.profile .sidebar_ul li:hover:not(.active_login) {
+  border-bottom: 3px solid #e2c547;
+}
+
+.profile .sidebar_ul li:active:not(.active_login) {
+  font-size: smaller;
+}
 /*# sourceMappingURL=main.css.map */

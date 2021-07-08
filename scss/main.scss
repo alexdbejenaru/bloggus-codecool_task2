@@ -291,3 +291,69 @@ body {
     }
 }
 
+//Stefan-Profile page
+.profile {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main_section {
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        margin-left: 10px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+    }
+
+    .sidebar {
+        width: 10%;
+        height: 80%;
+        background-color: white;
+        margin-right: 10px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+
+        &_ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            padding: 25px;
+            
+
+            .active_login {
+                border-bottom: 3px solid $accent_color;
+                font-weight: $font_semibold;
+            }
+
+            li {
+                width: 100%;
+                border-radius: 5px;
+                box-shadow: 0 1px 7px 1px lightblue;
+                // min-width: 80%;
+    
+                a {
+                    height: 80%;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 20%;
+
+                }
+    
+                &:hover:not(.active_login) {
+                    border-bottom: 3px solid $accent_color;
+                }
+    
+                &:active:not(.active_login) {
+                    font-size: smaller;
+                }
+            }
+    }   }
+}
