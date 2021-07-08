@@ -49,19 +49,6 @@ body {
           justify-content: space-between;
 }
 
-body::after {
-  background: url("/images/double-bubble-outline.png") scroll top no-repeat;
-  background-size: 100%;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .3;
-  z-index: -1;
-}
-
 .nav_top {
   background-color: #99bfb3;
   width: 100%;
@@ -217,6 +204,19 @@ body::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.homepage::after {
+  background: url("/images/double-bubble-outline.png") scroll top no-repeat;
+  background-size: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  z-index: -1;
 }
 
 .homepage .main_section {
@@ -416,7 +416,7 @@ body::after {
   cursor: pointer;
 }
 
-.profile {
+.homepage {
   height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -430,7 +430,7 @@ body::after {
           justify-content: center;
 }
 
-.profile .sidebar {
+.homepage .sidebar {
   width: 10%;
   height: 80%;
   background-color: white;
@@ -441,7 +441,7 @@ body::after {
           box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
 }
 
-.profile .sidebar_ul {
+.homepage .sidebar_ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -459,19 +459,19 @@ body::after {
   padding: 25px;
 }
 
-.profile .sidebar_ul .active_login {
+.homepage .sidebar_ul .active_login {
   border-bottom: 3px solid #e2c547;
   font-weight: 600;
 }
 
-.profile .sidebar_ul li {
+.homepage .sidebar_ul li {
   width: 100%;
   border-radius: 5px;
   -webkit-box-shadow: 0 1px 7px 1px lightblue;
           box-shadow: 0 1px 7px 1px lightblue;
 }
 
-.profile .sidebar_ul li a {
+.homepage .sidebar_ul li a {
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,15 +485,15 @@ body::after {
   padding: 0 20%;
 }
 
-.profile .sidebar_ul li:hover:not(.active_login) {
+.homepage .sidebar_ul li:hover:not(.active_login) {
   border-bottom: 3px solid #e2c547;
 }
 
-.profile .sidebar_ul li:active:not(.active_login) {
+.homepage .sidebar_ul li:active:not(.active_login) {
   font-size: smaller;
 }
 
-.profile .main_section {
+.homepage .main_section {
   width: 60%;
   height: 80%;
   background-color: white;
@@ -512,20 +512,20 @@ body::after {
           flex-direction: column;
 }
 
-.profile .main_section_top {
+.homepage .main_section_top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-bottom: 4px solid #e2c547;
 }
 
-.profile .main_section_top_text {
+.homepage .main_section_top_text {
   font-weight: 600;
   font-size: 40px;
   padding: 0 0 10px 0;
 }
 
-.profile .main_section_content {
+.homepage .main_section_content {
   padding: 25px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
