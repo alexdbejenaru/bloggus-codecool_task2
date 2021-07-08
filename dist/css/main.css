@@ -130,7 +130,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   min-width: 900px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer a:hover {
@@ -192,7 +193,7 @@ body {
 }
 
 .homepage {
-  height: 100vh;
+  height: 700px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,7 +208,7 @@ body {
 
 .homepage .main_section {
   width: 60%;
-  height: 80%;
+  height: 100%;
   background-color: white;
   margin-left: 10px;
   min-height: 300px;
@@ -218,7 +219,7 @@ body {
 
 .homepage .sidebar {
   width: 10%;
-  height: 80%;
+  height: 100%;
   background-color: white;
   margin-right: 10px;
   min-height: 300px;
@@ -229,7 +230,7 @@ body {
 
 .main_section__login {
   width: 25%;
-  height: 80%;
+  height: 95%;
   background-color: white;
   margin-left: 10px;
   min-height: 300px;
@@ -317,7 +318,7 @@ body {
 
 .main_section__register {
   width: 25%;
-  height: 80%;
+  height: 90%;
   background-color: white;
   margin-left: 10px;
   min-height: 300px;
