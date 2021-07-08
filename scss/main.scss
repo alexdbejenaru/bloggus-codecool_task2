@@ -8,19 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    // &::after {
-    // background: url("/images/double-bubble-outline.png") scroll top no-repeat;
-    // background-size: 100%;
-    // content: "";
-    // position: absolute;
-    // top: 0; 
-    // left: 0;
-    // width: 100%; 
-    // height: 100%;  
-    // opacity: .3; 
-    // z-index: -1;
-    // }
 }
 
 .nav_top {
@@ -135,18 +122,18 @@ body {
     align-items: center;
     justify-content: center;
 
-    &::after {
-        background: url("/images/double-bubble-outline.png") scroll top no-repeat;
-        background-size: 100%;
-        content: "";
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%; 
-        height: 100%;  
-        opacity: .3; 
-        z-index: -1;
-        }
+    // &::after {
+    //     background: url("/images/double-bubble-outline.png") scroll top no-repeat;
+    //     background-size: 100%;
+    //     content: "";
+    //     position: absolute;
+    //     top: 0; 
+    //     left: 0;
+    //     width: 100%; 
+    //     height: 100%;  
+    //     opacity: .3; 
+    //     z-index: -1;
+    //     }
 
     .main_section {
         width: 60%;
