@@ -35,6 +35,7 @@ ul {
 
 body {
   height: 100vh;
+  width: 100vw;
   background-color: #c2ddc8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,6 +47,19 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body::after {
+  background: url("/images/jason-leung-UMncYEfO9-U-unsplash.jpg") scroll top no-repeat;
+  background-size: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .15;
+  z-index: -1;
 }
 
 .nav_top {
