@@ -208,18 +208,56 @@ body {
 }
 
 .homepage_first .layout .article_card {
-  background-color: aliceblue;
+  background-color: #e2c547;
   border: 1px solid black;
-  padding: 20px;
   margin: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
-.homepage_first .layout .article_card .bg_images {
+.homepage_first .layout .article_card .title_6 {
+  z-index: 1;
+}
+
+.homepage_first .layout .article_card .image_bg {
   height: 100%;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+}
+
+.homepage_first .layout .article_card .image_bg:hover {
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.homepage_first .layout .article_card .image_bg__img1 {
+  background-image: url("https://picsum.photos/800/300?random=1");
+}
+
+.homepage_first .layout .article_card .image_bg__img2 {
+  background-image: url("https://picsum.photos/800/300?random=2");
+}
+
+.homepage_first .layout .article_card .image_bg__img3 {
+  background-image: url("https://picsum.photos/800/300?random=3");
+}
+
+.homepage_first .layout .article_card .image_bg__img4 {
+  background-image: url("https://picsum.photos/800/300?random=4");
+}
+
+.homepage_first .layout .article_card .image_bg__img5 {
+  background-image: url("https://picsum.photos/800/300?random=5");
+}
+
+.homepage_first .layout .article_card .image_bg__img6 {
+  background-image: url("https://picsum.photos/800/300?random=6");
 }
 
 .homepage_first .layout .article_card:first-child {
