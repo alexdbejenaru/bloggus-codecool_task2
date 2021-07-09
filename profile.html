@@ -35,19 +35,38 @@
 
         <section class="main_section">
             <div class="main_section_top">
-                <h1 class="main_section_top_text">Hello User</h1>
+                <h1 class="main_section_top_text">Here you can edit your profile!</h1>
             </div>
 
             <div class="main_section_content">
+
                 <div class="main_section_content_element1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium nemo aliquid blanditiis doloribus totam sapiente, quod consectetur natus labore maxime, cum harum repellendus quidem veritatis maiores in enim dicta.</p>
-                </div>
+                   
+                    <form class="form" method="get">
+                        <label for="username">Update your Username:</label>
+                        <input class="form_list" type="username" id="username" placeholder="New Username" >
+
+                        <label for="fileIcon">Update your User Icon:</label>
+                        <input class="form_list_file" type="file" id="fileIcon" accept="image/*," capture="User"  >
+
+                        <label for="description">Add a description:</label>
+                        <input class="form_list" type="text" id="description" size="100" placeholder="Description..." >
+
+                        <input class="button" type="submit" value="Save your changes">
+                </div>    
 
                 <div class="main_section_content_element2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium nemo aliquid blanditiis doloribus totam sapiente, quod consectetur natus labore maxime, cum harum repellendus quidem veritatis maiores in enim dicta.</p>
-                    
+                    <!-- <h1>This is how your Profile looks to other users</h1> -->
+
+                        <div class="main_section_content_element2_contentArea">
+                        </div>
+
+                        </div>
+
+
                 </div>
             </div>
+
 
         </section>
     </main>
