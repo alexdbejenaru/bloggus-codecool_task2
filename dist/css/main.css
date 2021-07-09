@@ -209,16 +209,29 @@ body {
 
 .homepage_first .layout .article_card {
   background-color: #e2c547;
-  border: 1px solid black;
   margin: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.3;
 }
 
-.homepage_first .layout .article_card .title_6 {
-  z-index: 1;
+.homepage_first .layout .article_card__title, .homepage_first .layout .article_card__body, .homepage_first .layout .article_card__read {
+  margin: 20px;
+}
+
+.homepage_first .layout .article_card__read {
+  color: purple;
+  text-decoration: underline;
 }
 
 .homepage_first .layout .article_card .image_bg {
