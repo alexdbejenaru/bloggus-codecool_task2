@@ -798,6 +798,7 @@ body {
 }
 
 .manageContacts .main_section_content {
+  height: 100%;
   padding: 10px 25px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -829,7 +830,6 @@ body {
 }
 
 .manageContacts .main_section_content_element2 {
-  height: 80%;
   border: 2px solid lightblue;
   border-radius: 5px;
   display: -webkit-box;
@@ -839,11 +839,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 25px;
 }
 
 .manageContacts .main_section_content_element2_header {
-  margin: 25px auto 10px 25px;
+  margin: 25px auto 15px 25px;
 }
 
 .manageContacts .main_section_content_element2_list {
@@ -855,7 +854,7 @@ body {
 }
 
 .manageContacts .main_section_content_element2_list li:hover {
-  padding: 11px 32px;
+  padding: 5px 3px;
   cursor: pointer;
   border: lightblue 2px solid;
   border-radius: 5px;
@@ -1064,7 +1063,7 @@ body {
 }
 
 .security .main_section_content_element2 .button-delete {
-  background-color: red;
+  background-color: #db5353;
   padding: 10px 30px;
   border-radius: 10px;
   border: grey 2px solid;
