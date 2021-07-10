@@ -60,6 +60,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-width: 900px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .nav_top a:hover {
@@ -132,6 +134,8 @@ body {
   display: flex;
   min-width: 900px;
   position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .footer a:hover {
@@ -226,7 +230,12 @@ body {
 }
 
 .homepage_first .layout .article_card__title, .homepage_first .layout .article_card__body, .homepage_first .layout .article_card__read {
-  margin: 20px;
+  padding: 20px 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  min-width: auto;
+  line-height: normal;
 }
 
 .homepage_first .layout .article_card__read {

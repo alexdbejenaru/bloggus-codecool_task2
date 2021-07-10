@@ -17,6 +17,8 @@ body {
     display: flex;
     justify-content: space-between;
     min-width: 900px;
+    flex-shrink: 0;
+
 
     a:hover {
         font-weight: $font_semibold;
@@ -73,6 +75,7 @@ body {
     display: flex;
     min-width: 900px;
     position: relative;
+    flex-shrink: 0;
     // bottom: 0;
 
     a:hover {
@@ -148,7 +151,14 @@ body {
             line-height: 1.3;
 
             &__title, &__body, &__read {
-                margin: 20px;
+                padding:  20px 15px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+                min-width: auto;
+                line-height: normal;
+
+                
             }
 
             &__read {
