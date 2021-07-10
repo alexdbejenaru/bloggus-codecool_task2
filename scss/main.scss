@@ -302,7 +302,6 @@ body {
     width: 25%;
     height: 700px;
     background-color: white;
-    // margin-left: 10px;
     min-height: 300px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
@@ -408,7 +407,6 @@ body {
                 width: 100%;
                 border-radius: 5px;
                 box-shadow: 0 1px 7px 1px lightblue;
-                // min-width: 80%;
     
                 a {
                     height: 80%;
@@ -461,7 +459,7 @@ body {
 
         &_content{
             
-            padding: 25px 0px ;
+            padding: 25px  ;
             display: flex;
             flex-direction: row;
             gap: 25px;
@@ -469,7 +467,7 @@ body {
             height: 100%;
 
             //Sirst element
-            
+
                 &_element1{
                     min-width: 30%
             }
@@ -481,7 +479,6 @@ body {
                         
                     [type=text]{
                         height: 5em;
-                        text-align: ;
                         vertical-align: top;
                     }
                     
@@ -515,6 +512,337 @@ body {
                     min-width: 70%;
 
                     
+                }
+
+        }
+
+    }
+}
+
+ //Stefan-Manage Contacts page main section
+
+.manageContacts {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    //Manage Contacts Page sideabr
+
+    .sidebar {
+        width: 10%;
+        height: 80%;
+        background-color: white;
+        margin-right: 10px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+
+        &_ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            padding: 25px;
+            
+
+            .active_login {
+                border-bottom: 3px solid $accent_color;
+                font-weight: $font_semibold;
+            }
+
+            li {
+                width: 100%;
+                border-radius: 5px;
+                box-shadow: 0 1px 7px 1px lightblue;
+                // min-width: 80%;
+    
+                a {
+                    height: 80%;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 20%;
+
+                }
+    
+                &:hover:not(.active_login) {
+                    border-bottom: 3px solid $accent_color;
+                }
+    
+                &:active:not(.active_login) {
+                    font-size: smaller;
+                }
+            }
+    }   }
+
+    //Manage Contacts main section
+
+    .main_section {
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        margin-left: 10px;
+        padding: 20px 30px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+        display: flex;
+        flex-direction: column;
+
+        //Manage Contacts main section 
+
+        &_top{
+            display: flex;
+            border-bottom: 4px solid $accent_color;
+
+            &_text{
+                font-weight: $font_semibold;
+                font-size: 40px;
+                padding: 0 0 10px 0;
+            }
+        }
+
+        //Manage Contacts main content section
+
+        &_content{
+            // height: 100%;
+            padding: 10px 25px  ;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            //First element
+
+                &_element1{
+
+                    height: 10%;
+                    border: 2px solid lightblue;
+                    border-radius: 5px;
+                    display:flex ;
+                    justify-content: center;
+                    align-items: center;
+
+                        h1{
+                        margin: 25px 10px;
+                    }
+                    
+                    }
+                    
+                    //Second element 
+
+                &_element2{
+                    height: 80%;
+                    border: 2px solid lightblue;
+                    border-radius: 5px;
+                    display:flex ;
+                    flex-direction: column;
+                    gap: 25px;
+
+                        &_header{
+                        margin: 25px auto 10px 25px ;
+                    }
+                    &_list{
+                        margin: 0px 25px;
+
+                        
+                        li{
+                            margin-bottom: 25px;
+
+                            &:hover {
+                                padding: 11px 32px;
+                                cursor: pointer;
+                                border: lightblue 2px solid;
+                                border-radius: 5px;
+                            }
+
+                                img{
+                                    vertical-align:middle;
+                                border-radius: 50%;
+                                margin: 0 20px;
+                            }
+                        }
+                    }
+                }
+
+        }
+
+    }
+}
+
+ //Stefan-Manage Security Page main section
+
+.security {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    //Security Page Page sideabr
+
+    .sidebar {
+        width: 10%;
+        height: 80%;
+        background-color: white;
+        margin-right: 10px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+
+        &_ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            padding: 25px;
+            
+
+            .active_login {
+                border-bottom: 3px solid $accent_color;
+                font-weight: $font_semibold;
+            }
+
+            li {
+                width: 100%;
+                border-radius: 5px;
+                box-shadow: 0 1px 7px 1px lightblue;
+    
+                a {
+                    height: 80%;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 20%;
+
+                }
+    
+                &:hover:not(.active_login) {
+                    border-bottom: 3px solid $accent_color;
+                }
+    
+                &:active:not(.active_login) {
+                    font-size: smaller;
+                }
+            }
+    }   }
+
+    //Security Page main section
+
+    .main_section {
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        margin-left: 10px;
+        padding: 20px 30px;
+        min-height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(190, 190, 190, 0.5);
+        display: flex;
+        flex-direction: column;
+
+        //Security Page main section 
+
+        &_top{
+            display: flex;
+            border-bottom: 4px solid $accent_color;
+
+            &_text{
+                font-weight: $font_semibold;
+                font-size: 40px;
+                padding: 0 0 10px 0;
+            }
+        }
+
+        //Security Page main content section
+
+        &_content{
+            padding: 10px 25px  ;
+            display: flex;
+            flex-direction: col;
+            gap: 25px;
+
+            //First element
+
+                &_element1{
+                    border: 2px solid lightblue;
+                    border-radius: 5px;
+                    
+
+
+                        .form{
+                            margin: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        justify-content: center;
+                            
+                        [type=text]{
+                            height: 5em;
+                            vertical-align: top;
+                        }
+                        
+                        
+                            &_list,&_list_file{
+                        padding: 3px 0px;
+                        border: 1px solid lightblue;
+                        border-radius: 5px;
+                        
+                                    &:hover {
+                                    border: 2px solid lightblue;
+                                    }
+                                
+                            }
+                        }
+                        .button {
+                            background-color: $accent_color;
+                            padding: 10px 30px;
+                            border-radius: 10px;
+                            border: none;
+                            box-shadow: 0 1px 7px 1px lightblue;
+                            margin: 10px 0;
+                            
+                            &:hover {
+                                padding: 11px 32px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    
+                    //Second element 
+
+                &_element2{
+                    border: 2px solid lightblue;
+                    border-radius: 5px;
+                    display:flex ;
+                    flex-direction: column;
+                    gap: 25px;
+
+                    &_wrapper{
+                        margin: 25px;
+                        gap: 10px;
+                        display: flex;
+                        flex-direction: column;
+
+                        
+                    }
+                    .button-delete {
+                        background-color: red;
+                        padding: 10px 30px;
+                        border-radius: 10px;
+                        border: grey 2px solid;
+                        box-shadow: 0 1px 7px 1px rgb(209, 150, 141);
+                        margin: 10px 0px;
+                        color: white;
+                        
+                        &:hover {
+                            padding: 11px 32px;
+                            cursor: pointer;
+                        }
+                    }
                 }
 
         }

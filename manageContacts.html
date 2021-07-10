@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/css/main.css">
-    <title>Bloggus - Edit profile</title>
+    <title>Bloggus - Manage contacts</title>
 </head>
 </head>
 <body>
@@ -21,48 +21,36 @@
     </nav>
 
 
-    <main class="homepage">
+    <main class="manageContacts">
 
         <aside class="sidebar">
             <ul class="sidebar_ul">
-                <li class="sidebar_ul_li active_login"><a href="profile.html">Edit Profile</a></li>
+                <li class="sidebar_ul_li "><a href="profile.html">Edit Profile</a></li>
                 <li class="sidebar_ul_li"><a href="index.html">Account Content</a></li>
                 <li class="sidebar_ul_li"><a href="security.html">Security</a></li>
-                <li class="sidebar_ul_li"><a href="manageContacts.html">Manage Contacts</a></li>
+                <li class="sidebar_ul_li active_login"><a href="manageContacts.html">Manage Contacts</a></li>
             </ul>
 
         </aside>
 
         <section class="main_section">
             <div class="main_section_top">
-                <h1 class="main_section_top_text">Here you can edit your profile!</h1>
+                <h1 class="main_section_top_text">Add or Remove Contacts</h1>
             </div>
 
-            <div class="main_section_content">
-
+            <section class="main_section_content">
+                
                 <div class="main_section_content_element1">
-                   
-                    <form class="form" method="get">
-                        <label for="username">Update your Username:</label>
-                        <input class="form_list" type="username" id="username" placeholder="New Username" >
-
-                        <label for="fileIcon">Update your User Icon:</label>
-                        <input class="form_list_file" type="file" id="fileIcon" accept="image/*," capture="User"  >
-
-                        <label for="description">Add a description:</label>
-                        <input class="form_list" type="text" id="description" size="100" placeholder="Description..." >
-
-                        <input class="button" type="submit" value="Save your changes">
-                </div>    
-
+                    <h1>Sorry,looks like you dont have any Contacts but we can recomend you some :)</h1>
+                    
+                </div>
                 <div class="main_section_content_element2">
-
-                        <div class="main_section_content_element2_contentArea">
-                        </div>
-
-                        </div>
-
-
+                    <h1 class="main_section_content_element2_header">Recomended Contacts</h1>
+                    <ul class="main_section_content_element2_list">
+                    <li>User1<img src="https://picsum.photos/50/50?random=1"></li>
+                    <li>User2<img src="https://picsum.photos/50/50?random=2"></li>
+                    <li>User3<img src="https://picsum.photos/50/50?random=3"></li>
+                    </ul>
                 </div>
             </div>
 

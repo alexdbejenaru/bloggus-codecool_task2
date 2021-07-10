@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/css/main.css">
-    <title>Bloggus - Edit profile</title>
+    <title>Bloggus - Security section</title>
 </head>
 </head>
 <body>
@@ -21,13 +21,13 @@
     </nav>
 
 
-    <main class="homepage">
+    <main class="security">
 
         <aside class="sidebar">
             <ul class="sidebar_ul">
-                <li class="sidebar_ul_li active_login"><a href="profile.html">Edit Profile</a></li>
+                <li class="sidebar_ul_li"><a href="profile.html">Edit Profile</a></li>
                 <li class="sidebar_ul_li"><a href="index.html">Account Content</a></li>
-                <li class="sidebar_ul_li"><a href="security.html">Security</a></li>
+                <li class="sidebar_ul_li active_login"><a href="security.html">Security</a></li>
                 <li class="sidebar_ul_li"><a href="manageContacts.html">Manage Contacts</a></li>
             </ul>
 
@@ -43,26 +43,27 @@
                 <div class="main_section_content_element1">
                    
                     <form class="form" method="get">
-                        <label for="username">Update your Username:</label>
-                        <input class="form_list" type="username" id="username" placeholder="New Username" >
+                        <label for="email">Update your email address:</label>
+                        <input class="form_list" type="email" id="email" placeholder="New email address" >
 
-                        <label for="fileIcon">Update your User Icon:</label>
-                        <input class="form_list_file" type="file" id="fileIcon" accept="image/*," capture="User"  >
+                        <label for="password">Update your Password:</label>
+                        <input class="form_list" type="password" id="password" placeholder="New password" >
 
-                        <label for="description">Add a description:</label>
-                        <input class="form_list" type="text" id="description" size="100" placeholder="Description..." >
-
-                        <input class="button" type="submit" value="Save your changes">
+                        <input class="button" type="submit" value="Save " >
                 </div>    
 
                 <div class="main_section_content_element2">
-
-                        <div class="main_section_content_element2_contentArea">
-                        </div>
-
-                        </div>
-
-
+                    
+                    <div class="main_section_content_element2_wrapper">
+                        <h1>Delete Account</h1>
+                        <p>This will delete your account and all of the asociated posts</p>
+                        <button class="button-delete" onclick="myFunction()">Delete Account</button>
+                        <script>
+                            function myFunction() {
+                              alert("Account and all of the user data was deleted");
+                                }
+                        </script>
+                    </div>
                 </div>
             </div>
 
